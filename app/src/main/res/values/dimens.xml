@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_line_width">0.80dp</dimen>
+    <dimen name="default_line_dashGap">2dp</dimen>
+    <dimen name="default_line_dashWidth">3dp</dimen>
+</resources>

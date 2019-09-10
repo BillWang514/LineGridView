@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lineType">
+        <enum name="full_line" value="0" />
+        <enum name="dash_line" value="1" />
+    </attr>
+    <declare-styleable name="LineGridView">
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="linePadding" format="dimension" />
+        <attr name="dashGap" format="dimension" />
+        <attr name="dashWidth" format="dimension" />
+        <attr name="lineType" />
+    </declare-styleable>
+</resources>
