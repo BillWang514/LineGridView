@@ -106,6 +106,7 @@ public class LineGridView extends GridView {
 
     public void setLineType(@LineType int lineType) {
         this.lineType = lineType;
+        invalidate();
     }
 
     public int getLineColor() {
@@ -114,6 +115,22 @@ public class LineGridView extends GridView {
 
     public void setLineColor(int color) {
         this.lineColor = color;
+        invalidate();
+    }
+
+    public void setDashGap(float dashGap) {
+        this.dashGap = dashGap;
+        invalidate();
+    }
+
+    public void setDashWidth(float dashWidth) {
+        this.dashWidth = dashWidth;
+        invalidate();
+    }
+
+    public void setLineWidth(float lineWidth) {
+        this.lineWidth = lineWidth;
+        invalidate();
     }
 
 }
