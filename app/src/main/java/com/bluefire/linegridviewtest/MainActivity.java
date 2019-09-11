@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private List<Map<String,Object>> getDataList(){
-        String[] names = new String[]{"技术手册","维修记录","地图","出行","饮食","住宿","费用报销"};
-        int[] images = new int[]{R.drawable.head_book, R.drawable.record, R.drawable.map, R.drawable.trip,
-                R.drawable.food, R.drawable.stay, R.drawable.apply_for_reimbursement};
+        String[] names = new String[]{"技术手册","维修记录","地图","出行","饮食","住宿","费用报销","审批","考勤"};
+        int[] images = new int[]{R.drawable.head_book,R.drawable.record,R.drawable.map,R.drawable.trip,
+                R.drawable.food,R.drawable.stay,R.drawable.apply_for_reimbursement,R.drawable.approval,R.drawable.attendance};
 
         List<Map<String,Object>> list = new ArrayList<>();
         for (int i = 0; i < names.length; i++){
